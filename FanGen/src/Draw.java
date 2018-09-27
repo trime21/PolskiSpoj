@@ -1,4 +1,7 @@
+import java.io.*;
+
 public class Draw {
+    
     public void drawFan(char[][][] tab) throws IOException {
         BufferedWriter output = new BufferedWriter(new OutputStreamWriter(System.out));
         for (int i = 0; i < tab[0].length / 2; i++) {
