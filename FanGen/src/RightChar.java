@@ -1,4 +1,5 @@
 public class RightChar {
+    
     boolean getCharRight(int line, int column) {
         boolean charTest = true;
         if (line >= column)
