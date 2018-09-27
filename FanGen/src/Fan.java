@@ -1,6 +1,7 @@
 import java.io.*;
 
 public class Fan {
+    
     void program() throws IOException{
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
         int size;
